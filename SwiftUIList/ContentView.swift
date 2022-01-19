@@ -17,7 +17,8 @@ struct ContentView: View {
 //            FullImageRow(restaurant: restaurant)
             if (0...2).contains(index) {
                 FullImageRow(restaurant: self.restaurants[index])
-            } else {
+            }
+            else {
                 BasicImageRow(restaurant: self.restaurants[index])
             }
         }
